@@ -1,0 +1,26 @@
+# ninja log v6
+4579	4844	7640943896747399	TCPClient.exe	509fd66ba988b588
+978	4371	7640943860665831	CMakeFiles/TCPClient.dir/main.cpp.obj	c67a27ff9d44481b
+985	4579	7640943860665831	CMakeFiles/TCPClient.dir/widget.cpp.obj	25f39dc4c19112e3
+26	970	7640943859735934	G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/mocs_compilation.cpp	e516864eb088de17
+26	970	7640943859735934	G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/timestamp	e516864eb088de17
+26	970	7640943859735934	TCPClient_autogen/mocs_compilation.cpp	e516864eb088de17
+971	4348	7640943860665831	CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.obj	8461c4f824ac7f45
+26	970	7640943859735934	TCPClient_autogen/timestamp	e516864eb088de17
+18	833	7640944554466892	build.ninja	8182b098e2d4f9aa
+29	1192	7640962314374728	TCPClient_autogen/timestamp	e516864eb088de17
+29	1192	7640962314374728	TCPClient_autogen/mocs_compilation.cpp	e516864eb088de17
+29	1192	7640962314374728	G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/timestamp	e516864eb088de17
+29	1192	7640962314374728	G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/mocs_compilation.cpp	e516864eb088de17
+1193	4155	7640962315515296	CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.obj	8461c4f824ac7f45
+1201	4265	7640962315595097	CMakeFiles/TCPClient.dir/main.cpp.obj	c67a27ff9d44481b
+1211	4444	7640962315676017	CMakeFiles/TCPClient.dir/widget.cpp.obj	25f39dc4c19112e3
+4444	4731	7640962348033970	TCPClient.exe	509fd66ba988b588
+28	1202	7640965461380540	TCPClient_autogen/timestamp	e516864eb088de17
+28	1202	7640965461380540	TCPClient_autogen/mocs_compilation.cpp	e516864eb088de17
+28	1202	7640965461380540	G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/timestamp	e516864eb088de17
+28	1202	7640965461380540	G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/mocs_compilation.cpp	e516864eb088de17
+1202	4229	7640965462653964	CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.obj	8461c4f824ac7f45
+1211	4267	7640965462733737	CMakeFiles/TCPClient.dir/main.cpp.obj	c67a27ff9d44481b
+1220	4552	7640965462804913	CMakeFiles/TCPClient.dir/widget.cpp.obj	25f39dc4c19112e3
+4552	4819	7640965496151552	TCPClient.exe	509fd66ba988b588

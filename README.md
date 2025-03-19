@@ -62,3 +62,31 @@ QT学习
 
 
 添加：ctrl+s文件保存快捷键；鼠标左右键监听，debug输出坐标
+
+
+
+------
+
+### TCPClient:
+
+QtTCP客户端建立过程记录（cmake编译链）：
+
+首先需要修改cmakelist.txt,添加
+
+```
+ find_package(Qt6 REQUIRED COMPONENTS Network)
+ target_link_libraries(mytarget PRIVATE Qt6::Network)
+```
+
+具体可见QT客户端help搜索【Qt network】,第一页关于cmake就是这个。
+
+其次， 【target_link_libraries(mytarget PRIVATE Qt6::Network)】中的mytarget需要替换为项目名称，否则报错，原因不明。
+
+巧了，服务器没时间学了，明天再来！
+
+![TCPClient](./Other/TCPClient.png)
+
+
+
+------
+
