@@ -19,9 +19,7 @@ QT学习
 
 
 
-![](G:\NewCode\C\QT\Other\Calculator.png)
-
-
+![](./Other/Calculator.png)
 
 
 
