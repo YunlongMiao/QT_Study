@@ -25,3 +25,13 @@ QT学习
 
 ------
 
+### ObjectTimer：实现纯色图片的循环显示，1秒一次切换
+
+定时器
+
+![](./Other/ObjectTimer.png)
+
+
+
+------
+
