@@ -46,7 +46,7 @@ void MainWindow::OpenActionSlot()
         QMessageBox::warning(this,"警告","请选择一个文件");
     }else{
 
-        qDebug() << FileName;
+        //qDebug() << FileName;
 
         QFile file(FileName);
         file.open(QIODevice::ReadOnly);
@@ -81,6 +81,31 @@ void MainWindow::SaveActionSlot()
         file.write(ba);
         file.close();
     }
+}
 
 
+void MainWindow::keyPressEvent(QKeyEvent* k)
+{
+    if(k->modifiers() == Qt::ControlModifier && k->key() == Qt::Key_S)
+    {
+        qDebug() << "快捷键";
+        SaveActionSlot();
+    }
+    qDebug() << "监听到，但没反应";
+}
+
+
+void MainWindow::mousePressEvent(QMouseEvent* m)
+{
+    QPoint pt = m->pos();
+    qDebug() << pt;
+
+    if(m->button() == Qt::LeftButton)
+    {
+        qDebug() << "LeftBotton";
+    }
+    if(m->button() == Qt::RightButton)
+    {
+        qDebug() << "RightBotton";
+    }
 }

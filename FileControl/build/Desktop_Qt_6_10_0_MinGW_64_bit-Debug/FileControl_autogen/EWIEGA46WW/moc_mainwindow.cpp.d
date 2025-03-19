@@ -1,5 +1,10 @@
 G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileControl_autogen/EWIEGA46WW/moc_mainwindow.cpp: G:/NewCode/C/QT/FileControl/mainwindow.h \
   G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileControl_autogen/moc_predefs.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QList \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QObject \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QRect \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QSize \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QSizeF \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q17memory.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q20functional.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q20iterator.h \
@@ -7,6 +12,7 @@ G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileContr
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q20type_traits.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q20utility.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q23utility.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qalgorithms.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qanystringview.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qarraydata.h \
@@ -16,6 +22,7 @@ G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileContr
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qatomic.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qbasictimer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qbindingstorage.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qbytearray.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -32,10 +39,16 @@ G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileContr
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcoreevent.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdatastream.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdebug.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qendian.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qeventloop.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qflags.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qfloat16.h \
@@ -47,12 +60,14 @@ G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileContr
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qglobalstatic.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qhash.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qiodevice.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qiodevicebase.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qiterable.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qiterator.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlatin1stringview.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qline.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlist.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlocale.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlogging.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmalloc.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmap.h \
@@ -62,6 +77,7 @@ G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileContr
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmetatype.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qminmax.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qnamespace.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qnativeinterface.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qnumeric.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qobject.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qobject_impl.h \
@@ -118,36 +134,51 @@ G:/NewCode/C/QT/FileControl/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/FileContr
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtversionchecks.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtypeinfo.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtypes.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qurl.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qutf8stringview.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qvariant.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qxptype_traits.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/QKeyEvent \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/QMouseEvent \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/QTransform \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qaction.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qbitmap.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qbrush.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qcolor.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qcursor.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qevent.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qeventpoint.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfont.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfontinfo.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfontmetrics.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfontvariableaxis.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qguiapplication.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qicon.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qimage.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qinputdevice.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qinputmethod.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qkeysequence.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpaintdevice.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpalette.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpixelformat.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpixmap.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpointingdevice.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpolygon.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qregion.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qrgb.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qrgba64.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qscreen.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qscreen_platform.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtgui-config.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtguiexports.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtguiglobal.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtransform.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qvector2d.h \
+  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qvectornd.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/QMainWindow \
