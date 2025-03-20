@@ -198,3 +198,9 @@ QVariant(QDate, QDate("2002-01-06"))
 在tableview页面实现对数据库的增删改查
 
 <img src="./Other/MySqlTableView.png" style="zoom:50%;" />
+
+
+
+------
+
+前面多线程的应用有问题，加while(1)会卡死，实际上并不是多线程
