@@ -19,7 +19,7 @@ QT学习
 
 
 
-![](./Other/Calculator.png)
+<img src="./Other/Calculator.png" style="zoom:50%;" />
 
 
 
@@ -29,7 +29,7 @@ QT学习
 
 定时器
 
-![](./Other/ObjectTimer.png)
+<img src="./Other/ObjectTimer.png" style="zoom:50%;" />
 
 
 
@@ -104,6 +104,12 @@ QtTCP客户端建立过程记录（cmake编译链）：
 
 在客户端服务器基础上实现连接后客户端在新窗口发送数据到服务器
 
+新文件添加：客户端部分
+
+chat.ui	chat.cpp 	chat.h
+
+
+
 Debug记录：
 
 客户端发送数据后异常崩溃，debug得知类型为SIGSEVG崩溃，原因大多为访问不存在或者不正确的地方造成。
@@ -120,3 +126,20 @@ debug输出得知数据转换没问题。
 
 ------
 
+
+
+
+
+### 多线程应用：
+
+在服务器基础上实现连接后服务器同时接收多个客户端信息并在debug打印。
+
+
+
+新文件添加：服务器部分
+
+myThread.cpp 	myThread.h
+
+
+
+因为不能再其它类里面操作界面，在debug打印信息。

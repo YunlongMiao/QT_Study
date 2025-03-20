@@ -10,6 +10,7 @@ Widget::Widget(QWidget *parent)
     server = new QTcpServer;
 
     server->listen(QHostAddress::AnyIPv4,PORT);
+
     //客户端发起连接，server发出信号
     connect(server,&QTcpServer::newConnection,this,&Widget::TcpServerSlots);
 }
@@ -31,14 +32,21 @@ void Widget::TcpServerSlots()
     ui->Portlieedit->setText(QString::number(socket->peerPort()));
 
     //服务器收到客户端发送的信息，socket发出readyRead信号
-    connect(socket,&QTcpSocket::readyRead,this,&Widget::TcpInfoSlots);
+    //多线程注释
+    // connect(socket,&QTcpSocket::readyRead,this,&Widget::TcpInfoSlots);
+
+    //启动线程
+    myThread *t = new myThread(socket); //创建线程对象
+    t->start();                 //启动线程
 }
 
 
-void Widget::TcpInfoSlots()
-{
-    //获取信号发出者
-    QTcpSocket *s = (QTcpSocket*)sender();
+//多线程注释
 
-    ui->MainlineEdit->setText(QString(s->readAll()));
-}
+// void Widget::TcpInfoSlots()
+// {
+//     //获取信号发出者
+//     QTcpSocket *s = (QTcpSocket*)sender();
+
+//     ui->MainlineEdit->setText(QString(s->readAll()));
+// }

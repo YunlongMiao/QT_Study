@@ -1,4 +1,6 @@
 TCPServer_autogen/timestamp: \
+	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QObject \
+	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QThread \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q17memory.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q20functional.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/q20iterator.h \
@@ -33,7 +35,9 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qcontiguouscache.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdarwinhelpers.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdatastream.h \
+	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdeadlinetimer.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdebug.h \
+	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qelapsedtimer.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qendian.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qexceptionhandling.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qflags.h \
@@ -108,6 +112,7 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtextstream.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtformat_impl.h \
+	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qthread.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtmetamacros.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtnoop.h \
 	D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -436,6 +441,7 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
@@ -482,6 +488,8 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -510,6 +518,7 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_set.h \
@@ -525,6 +534,7 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -543,6 +553,7 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
@@ -550,6 +561,7 @@ TCPServer_autogen/timestamp: \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
 	D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
@@ -642,6 +654,8 @@ TCPServer_autogen/timestamp: \
 	G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_autogen/moc_predefs.h \
 	G:/NewCode/C/QT/TCPServer/main.cpp \
+	G:/NewCode/C/QT/TCPServer/mythread.cpp \
+	G:/NewCode/C/QT/TCPServer/mythread.h \
 	G:/NewCode/C/QT/TCPServer/widget.cpp \
 	G:/NewCode/C/QT/TCPServer/widget.h \
 	G:/NewCode/C/QT/TCPServer/widget.ui \

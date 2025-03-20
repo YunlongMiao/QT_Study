@@ -1,4 +1,4 @@
-G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_autogen/EWIEGA46WW/moc_widget.cpp: G:/NewCode/C/QT/TCPServer/widget.h \
+G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_autogen/EWIEGA46WW/moc_mythread.cpp: G:/NewCode/C/QT/TCPServer/mythread.h \
   G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_autogen/moc_predefs.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QObject \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/QThread \
@@ -39,7 +39,6 @@ G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_a
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qdebug.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qelapsedtimer.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qendian.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qflags.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qfloat16.h \
@@ -56,12 +55,10 @@ G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_a
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qiterable.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qiterator.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlatin1stringview.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qline.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlist.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qlogging.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmalloc.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmap.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmargins.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmath.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmetacontainer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qmetatype.h \
@@ -74,9 +71,7 @@ G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_a
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qoverload.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qpair.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qpoint.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qprocessordetection.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qrect.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qrefcount.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qscopedpointer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qscopeguard.h \
@@ -85,7 +80,6 @@ G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_a
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qshareddata_impl.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qsharedpointer.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qsize.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qspan.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qstring.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qstringalgorithms.h \
@@ -130,47 +124,13 @@ G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_a
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qxptype_traits.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore/qyieldcpu.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qaction.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qbitmap.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qbrush.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qcolor.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qcursor.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfont.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfontinfo.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfontmetrics.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qfontvariableaxis.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qicon.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qimage.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qkeysequence.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpaintdevice.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpalette.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpixelformat.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpixmap.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qpolygon.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qregion.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qrgb.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qrgba64.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtgui-config.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtguiexports.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtguiglobal.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qtransform.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qwindowdefs.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/QTcpServer \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/QTcpSocket \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qabstractsocket.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qhostaddress.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qtcpserver.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qtcpsocket.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qtnetwork-config.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qtnetworkexports.h \
   D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork/qtnetworkglobal.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/QWidget \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/qsizepolicy.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-  D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets/qwidget.h \
   D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   D:/appProjectTool/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -388,5 +348,4 @@ G:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_a
   D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  G:/NewCode/C/QT/TCPServer/mythread.h
+  D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h

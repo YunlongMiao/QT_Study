@@ -73,6 +73,14 @@ build CMakeFiles/TCPServer.dir/widget.cpp.obj: CXX_COMPILER__TCPServer_unscanned
   OBJECT_DIR = CMakeFiles\TCPServer.dir
   OBJECT_FILE_DIR = CMakeFiles\TCPServer.dir
 
+build CMakeFiles/TCPServer.dir/mythread.cpp.obj: CXX_COMPILER__TCPServer_unscanned_Debug G$:/NewCode/C/QT/TCPServer/mythread.cpp || cmake_object_order_depends_target_TCPServer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TCPServer.dir\mythread.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IG:/NewCode/C/QT/TCPServer/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPServer_autogen/include -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include -isystem D:/appProjectTool/QT/6.10.0/mingw_64/mkspecs/win32-g++ -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\TCPServer.dir
+  OBJECT_FILE_DIR = CMakeFiles\TCPServer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TCPServer
@@ -81,7 +89,7 @@ build CMakeFiles/TCPServer.dir/widget.cpp.obj: CXX_COMPILER__TCPServer_unscanned
 #############################################
 # Link the executable TCPServer.exe
 
-build TCPServer.exe: CXX_EXECUTABLE_LINKER__TCPServer_Debug CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj CMakeFiles/TCPServer.dir/main.cpp.obj CMakeFiles/TCPServer.dir/widget.cpp.obj | D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Widgets.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Network.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Gui.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Core.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6EntryPoint.a || TCPServer_autogen TCPServer_autogen_timestamp_deps
+build TCPServer.exe: CXX_EXECUTABLE_LINKER__TCPServer_Debug CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj CMakeFiles/TCPServer.dir/main.cpp.obj CMakeFiles/TCPServer.dir/widget.cpp.obj CMakeFiles/TCPServer.dir/mythread.cpp.obj | D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Widgets.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Network.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Gui.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Core.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6EntryPoint.a || TCPServer_autogen TCPServer_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Widgets.a  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Network.a  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

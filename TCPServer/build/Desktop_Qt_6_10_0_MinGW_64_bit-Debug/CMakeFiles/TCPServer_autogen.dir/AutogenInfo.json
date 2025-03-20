@@ -439,6 +439,12 @@
 	"HEADERS" : 
 	[
 		[
+			"G:/NewCode/C/QT/TCPServer/mythread.h",
+			"MU",
+			"EWIEGA46WW/moc_mythread.cpp",
+			null
+		],
+		[
 			"G:/NewCode/C/QT/TCPServer/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -519,6 +525,7 @@
 	"SOURCES" : 
 	[
 		[ "G:/NewCode/C/QT/TCPServer/main.cpp", "MU", null ],
+		[ "G:/NewCode/C/QT/TCPServer/mythread.cpp", "MU", null ],
 		[ "G:/NewCode/C/QT/TCPServer/widget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
