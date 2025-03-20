@@ -38,6 +38,11 @@ void Widget::on_ConnectButton_clicked()
     connect(socket,&QTcpSocket::connected,[this]()
     {
         QMessageBox::information(this,"连接提示","链接服务器成功");
+        this->hide();   //隐藏界面
+
+        Chat* c = new Chat(socket); //堆空间创建
+        c->show();
+
     });
 
 

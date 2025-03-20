@@ -379,4 +379,5 @@ G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_a
   D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  D:/appProjectTool/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  G:/NewCode/C/QT/TCPClient/chat.h

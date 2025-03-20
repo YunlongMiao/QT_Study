@@ -73,6 +73,14 @@ build CMakeFiles/TCPClient.dir/widget.cpp.obj: CXX_COMPILER__TCPClient_unscanned
   OBJECT_DIR = CMakeFiles\TCPClient.dir
   OBJECT_FILE_DIR = CMakeFiles\TCPClient.dir
 
+build CMakeFiles/TCPClient.dir/chat.cpp.obj: CXX_COMPILER__TCPClient_unscanned_Debug G$:/NewCode/C/QT/TCPClient/chat.cpp || cmake_object_order_depends_target_TCPClient
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TCPClient.dir\chat.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IG:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/TCPClient_autogen/include -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtCore -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include -isystem D:/appProjectTool/QT/6.10.0/mingw_64/mkspecs/win32-g++ -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtWidgets -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtGui -isystem D:/appProjectTool/QT/6.10.0/mingw_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\TCPClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\TCPClient.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TCPClient
@@ -81,7 +89,7 @@ build CMakeFiles/TCPClient.dir/widget.cpp.obj: CXX_COMPILER__TCPClient_unscanned
 #############################################
 # Link the executable TCPClient.exe
 
-build TCPClient.exe: CXX_EXECUTABLE_LINKER__TCPClient_Debug CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.obj CMakeFiles/TCPClient.dir/main.cpp.obj CMakeFiles/TCPClient.dir/widget.cpp.obj | D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Widgets.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Network.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Gui.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Core.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6EntryPoint.a || TCPClient_autogen TCPClient_autogen_timestamp_deps
+build TCPClient.exe: CXX_EXECUTABLE_LINKER__TCPClient_Debug CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.obj CMakeFiles/TCPClient.dir/main.cpp.obj CMakeFiles/TCPClient.dir/widget.cpp.obj CMakeFiles/TCPClient.dir/chat.cpp.obj | D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Widgets.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Network.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Gui.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Core.a D$:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6EntryPoint.a || TCPClient_autogen TCPClient_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Widgets.a  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Network.a  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/appProjectTool/QT/6.10.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -168,7 +176,7 @@ build TCPClient_autogen_timestamp_deps: phony
 #############################################
 # Utility command for TCPClient_autogen
 
-build TCPClient_autogen: phony CMakeFiles/TCPClient_autogen TCPClient_autogen/include/ui_widget.h TCPClient_autogen/timestamp TCPClient_autogen/mocs_compilation.cpp TCPClient_autogen_timestamp_deps
+build TCPClient_autogen: phony CMakeFiles/TCPClient_autogen TCPClient_autogen/include/ui_widget.h TCPClient_autogen/include/ui_chat.h TCPClient_autogen/timestamp TCPClient_autogen/mocs_compilation.cpp TCPClient_autogen_timestamp_deps
 
 
 #############################################
@@ -185,7 +193,7 @@ build TCPClient_autogen/timestamp TCPClient_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Phony custom command for CMakeFiles\TCPClient_autogen
 
-build CMakeFiles/TCPClient_autogen TCPClient_autogen/include/ui_widget.h | ${cmake_ninja_workdir}CMakeFiles/TCPClient_autogen ${cmake_ninja_workdir}TCPClient_autogen/include/ui_widget.h: phony TCPClient_autogen/timestamp || TCPClient_autogen_timestamp_deps
+build CMakeFiles/TCPClient_autogen TCPClient_autogen/include/ui_widget.h TCPClient_autogen/include/ui_chat.h | ${cmake_ninja_workdir}CMakeFiles/TCPClient_autogen ${cmake_ninja_workdir}TCPClient_autogen/include/ui_widget.h ${cmake_ninja_workdir}TCPClient_autogen/include/ui_chat.h: phony TCPClient_autogen/timestamp || TCPClient_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

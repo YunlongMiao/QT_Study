@@ -439,6 +439,12 @@
 	"HEADERS" : 
 	[
 		[
+			"G:/NewCode/C/QT/TCPClient/chat.h",
+			"MU",
+			"EWIEGA46WW/moc_chat.cpp",
+			null
+		],
+		[
 			"G:/NewCode/C/QT/TCPClient/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -518,6 +524,7 @@
 	"SETTINGS_FILE" : "G:/NewCode/C/QT/TCPClient/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/TCPClient_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "G:/NewCode/C/QT/TCPClient/chat.cpp", "MU", null ],
 		[ "G:/NewCode/C/QT/TCPClient/main.cpp", "MU", null ],
 		[ "G:/NewCode/C/QT/TCPClient/widget.cpp", "MU", null ]
 	],

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a01a7b4da6d4d203181c.json",
+					"jsonFile" : "directory-.-Debug-3c4a80b0bb4961df08a4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TCPClient::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TCPClient-Debug-9fe77095e7d0fc921a53.json",
+					"jsonFile" : "target-TCPClient-Debug-e92ea56d0a97f9578442.json",
 					"name" : "TCPClient",
 					"projectIndex" : 0
 				},

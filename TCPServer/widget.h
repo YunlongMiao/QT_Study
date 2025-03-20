@@ -27,5 +27,6 @@ private:
 
 private slots:
     void TcpServerSlots();
+    void TcpInfoSlots();
 };
 #endif // WIDGET_H

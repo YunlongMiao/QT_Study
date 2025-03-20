@@ -29,4 +29,16 @@ void Widget::TcpServerSlots()
 
     ui->Iplineedit->setText(socket->peerAddress().toString());
     ui->Portlieedit->setText(QString::number(socket->peerPort()));
+
+    //服务器收到客户端发送的信息，socket发出readyRead信号
+    connect(socket,&QTcpSocket::readyRead,this,&Widget::TcpInfoSlots);
+}
+
+
+void Widget::TcpInfoSlots()
+{
+    //获取信号发出者
+    QTcpSocket *s = (QTcpSocket*)sender();
+
+    ui->MainlineEdit->setText(QString(s->readAll()));
 }

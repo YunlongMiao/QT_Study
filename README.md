@@ -53,7 +53,7 @@ QT学习
 
 文件的创建、读写、存储
 
-![](./Other/FileControl.png)
+<img src="./Other/FileControl.png" style="zoom:50%;" />
 
 
 
@@ -84,7 +84,7 @@ QtTCP客户端建立过程记录（cmake编译链）：
 
 巧了，服务器没时间学了，明天再来！
 
-![TCPClient](./Other/TCPClient.png)
+<img src="./Other/TCPClient.png" alt="TCPClient" style="zoom:50%;" />
 
 
 
@@ -92,7 +92,27 @@ QtTCP客户端建立过程记录（cmake编译链）：
 
 ### TCPServer：TCP服务端，简单通信，本地回环地址
 
-![](./Other/TCPServer.png)
+<img src="./Other/TCPServer.png" style="zoom:50%;" />
+
+
+
+
+
+------
+
+### QT创建新窗口
+
+在客户端服务器基础上实现连接后客户端在新窗口发送数据到服务器
+
+Debug记录：
+
+客户端发送数据后异常崩溃，debug得知类型为SIGSEVG崩溃，原因大多为访问不存在或者不正确的地方造成。
+
+debug输出得知数据转换没问题。
+
+原因：引用的socket对象在初始化的时候没赋值。
+
+<img src="./Other/NewPage.png" style="zoom:50%;" />
 
 
 
