@@ -28,6 +28,7 @@ private:
 
 private slots:
     void TcpServerSlots();
-    void TcpInfoSlots();
+    //void TcpInfoSlots();
+    void ThreadSlots(QByteArray b);
 };
 #endif // WIDGET_H

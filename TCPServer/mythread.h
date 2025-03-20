@@ -16,6 +16,9 @@ public:
     void run(); //继承自QThread的虚函数        线程处理函数
 
 signals:
+    //自定义信号
+    void SendThreadSign(QByteArray aa);
+
 private slots:
     void TcpInfoThreadSlots();
 

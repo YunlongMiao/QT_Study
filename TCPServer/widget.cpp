@@ -38,6 +38,8 @@ void Widget::TcpServerSlots()
     //启动线程
     myThread *t = new myThread(socket); //创建线程对象
     t->start();                 //启动线程
+
+    connect(t,&myThread::SendThreadSign,this,&Widget::ThreadSlots);
 }
 
 
@@ -50,3 +52,9 @@ void Widget::TcpServerSlots()
 
 //     ui->MainlineEdit->setText(QString(s->readAll()));
 // }
+
+
+void Widget::ThreadSlots(QByteArray a)
+{
+    ui->MainlineEdit->setText(QString(a));
+}

@@ -16,5 +16,7 @@ void myThread::run()
 //不能再其它类里面操作界面
 void myThread::TcpInfoThreadSlots()
 {
-    qDebug() << socket_t->readAll();
+    //qDebug() << socket_t->readAll();
+    QByteArray ba = socket_t->readAll();
+    emit SendThreadSign(ba);            //发送信号
 }

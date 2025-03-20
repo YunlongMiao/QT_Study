@@ -41,14 +41,17 @@ template <> constexpr inline auto Widget::qt_create_metaobjectdata<qt_meta_tag_Z
         "Widget",
         "TcpServerSlots",
         "",
-        "TcpInfoSlots"
+        "ThreadSlots",
+        "b"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Slot 'TcpServerSlots'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'TcpInfoSlots'
-        QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'ThreadSlots'
+        QtMocHelpers::SlotData<void(QByteArray)>(3, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::QByteArray, 4 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -73,10 +76,10 @@ void Widget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->TcpServerSlots(); break;
+        case 1: _t->ThreadSlots((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *Widget::metaObject() const
