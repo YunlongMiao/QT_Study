@@ -33,28 +33,28 @@ public:
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName("Widget");
-        Widget->resize(800, 600);
+        Widget->resize(645, 533);
         label = new QLabel(Widget);
         label->setObjectName("label");
-        label->setGeometry(QRect(260, 90, 141, 61));
+        label->setGeometry(QRect(210, 100, 141, 61));
         label_2 = new QLabel(Widget);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(80, 190, 191, 61));
+        label_2->setGeometry(QRect(80, 190, 181, 41));
         label_3 = new QLabel(Widget);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(70, 300, 221, 71));
+        label_3->setGeometry(QRect(60, 260, 221, 71));
         IPlineEdit = new QLineEdit(Widget);
         IPlineEdit->setObjectName("IPlineEdit");
-        IPlineEdit->setGeometry(QRect(300, 200, 251, 51));
+        IPlineEdit->setGeometry(QRect(280, 190, 211, 41));
         PortlineEdit = new QLineEdit(Widget);
         PortlineEdit->setObjectName("PortlineEdit");
-        PortlineEdit->setGeometry(QRect(300, 310, 251, 51));
+        PortlineEdit->setGeometry(QRect(280, 280, 211, 41));
         ConnectButton = new QPushButton(Widget);
         ConnectButton->setObjectName("ConnectButton");
-        ConnectButton->setGeometry(QRect(130, 430, 181, 61));
+        ConnectButton->setGeometry(QRect(100, 370, 141, 51));
         CancelButton_2 = new QPushButton(Widget);
         CancelButton_2->setObjectName("CancelButton_2");
-        CancelButton_2->setGeometry(QRect(400, 430, 171, 61));
+        CancelButton_2->setGeometry(QRect(320, 370, 141, 51));
 
         retranslateUi(Widget);
 

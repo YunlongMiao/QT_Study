@@ -90,3 +90,13 @@ QtTCP客户端建立过程记录（cmake编译链）：
 
 ------
 
+### TCPServer：TCP服务端，简单通信，本地回环地址
+
+![](./Other/TCPServer.png)
+
+
+
+
+
+------
+
