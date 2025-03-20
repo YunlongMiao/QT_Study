@@ -48,7 +48,7 @@ MySQL_LIBRARY  和  MySQL_LIBRARY_DEBUG	选择lib文件夹下的libmysql.lib
 
  完成后，我们再来看项目结构,己经多出来一个 mysql:
 
-![](G:\NewCode\C\QT\MySqlQT\other\6.png)
+![](./other/6.png)
 
 成功的情况下，项目下的以下目录，会出来编译后的dll文件
 
