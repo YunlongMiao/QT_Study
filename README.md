@@ -82,6 +82,10 @@ QtTCP客户端建立过程记录（cmake编译链）：
 
 其次， 【target_link_libraries(mytarget PRIVATE Qt6::Network)】中的mytarget需要替换为项目名称，否则报错，原因不明。
 
+**这里就是要项目名，就是要改的**
+
+
+
 巧了，服务器没时间学了，明天再来！
 
 <img src="./Other/TCPClient.png" alt="TCPClient" style="zoom:50%;" />
@@ -153,3 +157,37 @@ myThread.cpp 	myThread.h
 在服务器基础上实现连接后服务器同时接收多个客户端信息并在界面显示。
 
 在myThread中自定义信号，在widget中接受信号进行显示
+
+
+
+
+
+------
+
+### MySql数据库使用
+
+如果编译提示：QSqlDatabase: QMYSQL driver not loaded
+
+说明没有MYSQL驱动
+
+
+
+QT6MySQL驱动添加过程在MySqlQT文件夹下md文档
+
+
+
+查询结果通过debug打印
+
+![](./Other/MySqlQT.png)
+
+```
+QVariant(uint, 1)
+QVariant(QString, "张三")
+QVariant(QDate, QDate("2002-01-02"))
+QVariant(uint, 2)
+QVariant(QString, "李四")
+QVariant(QDate, QDate("2002-01-06"))
+```
+
+------
+
