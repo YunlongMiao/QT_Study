@@ -3,6 +3,20 @@ QT学习
 
 
 
+### QT串口助手
+
+代码写的逻辑有问题，勉强只能接收乱码，后面再改。
+
+<img src="./Other/SerialHelper.png" style="zoom:50%;" />
+
+
+
+
+
+------
+
+
+
 ### CmdPage：cmd打开页面
 
 编译链使用cmake
