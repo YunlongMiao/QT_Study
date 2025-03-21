@@ -1,0 +1,9 @@
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/SerialHelper.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/SerialHelper_autogen_timestamp_deps.dir
+G:/NewCode/C/SerialHelper/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/SerialHelper_autogen.dir
