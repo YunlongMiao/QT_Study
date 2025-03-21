@@ -3,6 +3,22 @@ QT学习
 
 
 
+### SerialHelperOther
+
+参考代码，界面设计为代码书写
+
+
+
+<img src="./Other/SerialHelperOther.png" style="zoom:50%;" />
+
+
+
+
+
+------
+
+
+
 ### QT串口助手
 
 代码写的逻辑有问题，勉强只能接收乱码，后面再改。
